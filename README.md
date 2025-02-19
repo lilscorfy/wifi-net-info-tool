@@ -1,12 +1,12 @@
-Network Hunter - Location Tracker
+Network Hunter - WiFi Network Information
 
-A simple tool to track network-based location using Termux.
+A simple tool to gather detailed WiFi network information using Termux.
 
 Features
 
-✔️ Tracks device location based on network information
-✔️ Uses Nmap and Bash scripting
-✔️ Lightweight and easy to use
+✔️ Scans nearby WiFi networks
+✔️ Retrieves network details like SSID, BSSID, Signal Strength, and more
+✔️ Uses Nmap and Python for efficient scanning
 
 Installation
 
@@ -18,21 +18,22 @@ cd network-hunter
 
 Usage
 
-Run the location tracking script:
+Run the WiFi network info script:
 
-bash track_location.sh
+python network_info.py
 
-This script will gather network-related location details and display them.
+This script will scan and display details about nearby WiFi networks.
 
 Requirements
 
 Termux
 
-Nmap
+Python
 
-Bash
+Nmap
 
 
 Disclaimer
 
-This tool is for educational and ethical use only. Do not use it for unauthorized tracking.
+This tool is for educational and ethical use only. Do not use it for unauthorized network scanning.
+
